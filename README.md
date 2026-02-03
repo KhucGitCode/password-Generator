@@ -37,16 +37,20 @@ CSS3
 password-generator/
 │
 ├── src/
+│   │
 │   ├── components/
+│   │
 │   ├── App.js
 │   ├── index.js
 │   └── App.css
 │
 ├── public/
+│   │
 │   └── index.html
 │
 ├── package.json
 └── README.md
+
 
 ⚙️ Installation & Setup
 
