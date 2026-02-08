@@ -35,7 +35,7 @@ function App() {
   }, [length, charAllowed, numberAllowed, passwordGenerator]);
 
   return (
-    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-9 py-7 my-8 text-orange-500 bg-gray-800 ">
+    <div className="w-full max-w-md mx-auto shadow-md rounded-lg p-6 my-8 text-orange-500 bg-gray-800 overflow-hidden ">
       <h1 className="text-white text-xl text-center my-3">
         Password Generator
       </h1>
@@ -62,7 +62,7 @@ function App() {
             min={6}
             max={100}
             value={length}
-            className="cursor-pointer"
+            className="cursor-pointer w-full max-w-full"
             onChange={(e) => {
               setLength(e.target.value);
             }}
